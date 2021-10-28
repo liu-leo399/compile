@@ -19,6 +19,7 @@ Token::Token(int lineNum, std::string rawString, TokenType tokenType) {
 
 std::ostream &operator<<(std::ostream &out, Token &temp) {
     out << temp.tokenType << ' ' << temp.rawString;
+    //out << ' ' << temp.rawString;
     return out;
 }
 

@@ -3,7 +3,7 @@
 #include "Lexing/LexAnalysis.h"
 #include "Parsing/Parsing.h"
 
-#define Lexing
+//#define Lexing
 #define Parsing
 
 int main() {
